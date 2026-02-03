@@ -1,6 +1,9 @@
 # TIL
 학습 기록
 
+## SpringTest
+- [Spring Layered Architecture Test](./250203_01_Spring_Layered_Architecture_Test.md) - 2025.02.03
+
 ## Alaram to Client
 - [Web Push Notification in Server](./260201_01_web_push_notification_in_server.md) - 2026.02.01
 
