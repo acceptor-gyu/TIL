@@ -21,6 +21,243 @@ Spring의 계층형 아키텍처(Layered Architecture)에서 각 레이어를 �
 └─────────────────────────────────┘
 ```
 
+### Mocking과 Stubbing
+
+테스트에서 가장 자주 사용되는 두 가지 핵심 기법인 Mocking과 Stubbing을 이해하는 것이 중요합니다.
+
+#### Mocking이란?
+
+**Mocking**은 실제 객체를 대신하는 가짜 객체(Mock Object)를 생성하는 기법입니다. Mock 객체는 실제 구현 없이 동작을 시뮬레이션하며, 호출 여부와 호출 방식을 검증할 수 있습니다.
+
+**언제 사용하나?**
+- 외부 의존성(DB, API, 파일 시스템)을 제거하고 빠른 테스트 실행이 필요할 때
+- 특정 레이어를 독립적으로 테스트하고 싶을 때
+- 아직 구현되지 않은 컴포넌트와 상호작용하는 코드를 테스트할 때
+- 에러 상황이나 특수한 시나리오를 시뮬레이션할 때
+
+**왜 사용하나?**
+- **빠른 테스트**: DB 연결이나 네트워크 호출 없이 즉시 실행
+- **테스트 격리**: 다른 컴포넌트의 영향 없이 순수한 로직만 검증
+- **예측 가능성**: 항상 동일한 결과를 반환하여 일관된 테스트 가능
+- **제어 가능성**: 실제로는 재현하기 어려운 예외 상황도 쉽게 테스트
+
+**어떻게 사용하나?**
+
+```java
+@ExtendWith(MockitoExtension.class)
+class OrderServiceTest {
+
+    @Mock
+    private OrderRepository orderRepository;  // Mock 객체 생성
+
+    @Mock
+    private PaymentService paymentService;
+
+    @InjectMocks
+    private OrderService orderService;  // Mock들이 자동으로 주입됨
+
+    @Test
+    void createOrder_ValidOrder_Success() {
+        // given: Mock의 동작 정의 (Stubbing)
+        Order order = new Order(1L, 10000);
+        given(orderRepository.save(any(Order.class)))
+            .willReturn(order);
+        given(paymentService.processPayment(anyLong()))
+            .willReturn(true);
+
+        // when: 테스트 대상 메서드 실행
+        Order result = orderService.createOrder(order);
+
+        // then: 결과 검증 + Mock 호출 검증
+        assertThat(result.getId()).isEqualTo(1L);
+        verify(orderRepository).save(any(Order.class));  // 호출 여부 검증
+        verify(paymentService).processPayment(10000L);   // 특정 인자로 호출되었는지 검증
+    }
+}
+```
+
+#### Stubbing이란?
+
+**Stubbing**은 Mock 객체의 메서드가 호출될 때 어떤 값을 반환할지 미리 정의하는 것입니다. "이 메서드가 호출되면 이 값을 반환해라"라고 설정하는 과정입니다.
+
+**언제 사용하나?**
+- Mock 객체가 특정 값을 반환해야 할 때
+- 메서드 호출에 따른 다양한 시나리오를 테스트할 때
+- 예외를 던지는 상황을 시뮬레이션할 때
+
+**왜 사용하나?**
+- **시나리오 제어**: 성공/실패 등 다양한 상황을 쉽게 재현
+- **테스트 데이터 준비 간소화**: 복잡한 객체 생성 과정을 단순화
+- **경계 케이스 테스트**: null, 빈 리스트, 예외 등 특수 상황 검증
+
+**어떻게 사용하나?**
+
+```java
+@Test
+void 다양한_Stubbing_기법() {
+    // 1. 단순 값 반환
+    given(userRepository.findById(1L))
+        .willReturn(Optional.of(new User("홍길동")));
+
+    // 2. 예외 던지기
+    given(userRepository.findById(999L))
+        .willThrow(new UserNotFoundException("사용자 없음"));
+
+    // 3. 여러 번 호출 시 다른 값 반환
+    given(externalApi.getData())
+        .willReturn("첫번째")
+        .willReturn("두번째")
+        .willReturn("세번째");
+
+    // 4. 조건에 따른 다른 반환값
+    given(userRepository.findById(anyLong()))
+        .willAnswer(invocation -> {
+            Long id = invocation.getArgument(0);
+            if (id > 100) throw new IllegalArgumentException();
+            return Optional.of(new User("User" + id));
+        });
+
+    // 5. void 메서드에 예외 설정
+    willThrow(new IOException("파일 없음"))
+        .given(fileService).deleteFile(anyString());
+
+    // 6. 아무것도 하지 않기 (기본 동작)
+    willDoNothing()
+        .given(emailService).sendEmail(any());
+}
+```
+
+#### Mocking vs Stubbing 비교
+
+| 구분 | Mocking | Stubbing |
+|-----|---------|----------|
+| **정의** | 가짜 객체 생성 | Mock 객체의 동작 정의 |
+| **목적** | 의존성 대체 + 호출 검증 | 특정 값 반환 설정 |
+| **주요 메서드** | `@Mock`, `mock()`, `verify()` | `given()`, `when()`, `willReturn()` |
+| **사용 시점** | 테스트 대상이 의존하는 객체 | Mock 객체의 반환값 필요 시 |
+| **검증** | 메서드 호출 여부/횟수 검증 | 반환값 기반 결과 검증 |
+
+#### 실무 사용 예시
+
+```java
+@ExtendWith(MockitoExtension.class)
+class UserServiceTest {
+
+    @Mock
+    private UserRepository userRepository;
+
+    @Mock
+    private EmailService emailService;
+
+    @InjectMocks
+    private UserService userService;
+
+    @Test
+    void 회원가입_성공_시_이메일_발송() {
+        // given: Stubbing으로 Mock의 동작 정의
+        User newUser = new User("test@example.com", "password123");
+        given(userRepository.existsByEmail("test@example.com"))
+            .willReturn(false);  // 중복 이메일 없음
+        given(userRepository.save(any(User.class)))
+            .willReturn(newUser);
+
+        // when
+        userService.registerUser(newUser);
+
+        // then: Mocking으로 호출 검증
+        verify(userRepository).existsByEmail("test@example.com");  // 중복 검사 호출 확인
+        verify(userRepository).save(any(User.class));              // 저장 호출 확인
+        verify(emailService).sendWelcomeEmail("test@example.com"); // 이메일 발송 확인
+    }
+
+    @Test
+    void 중복_이메일_회원가입_실패() {
+        // given
+        given(userRepository.existsByEmail("duplicate@example.com"))
+            .willReturn(true);  // Stubbing: 이미 존재하는 이메일
+
+        // when & then
+        assertThatThrownBy(() ->
+            userService.registerUser(new User("duplicate@example.com", "pwd"))
+        ).isInstanceOf(DuplicateEmailException.class);
+
+        // Mocking: save가 호출되지 않았는지 검증
+        verify(userRepository, never()).save(any());
+        verify(emailService, never()).sendWelcomeEmail(anyString());
+    }
+}
+```
+
+#### 주요 Mockito 어노테이션
+
+```java
+// 1. @Mock - Mock 객체 생성
+@Mock
+private UserRepository userRepository;
+
+// 2. @InjectMocks - Mock 객체들을 자동으로 주입받는 테스트 대상
+@InjectMocks
+private UserService userService;
+
+// 3. @Spy - 실제 객체를 부분적으로 Mocking (일부 메서드만 Stubbing)
+@Spy
+private UserValidator userValidator;
+
+// 4. @Captor - 메서드 인자를 캡처하여 검증
+@Captor
+private ArgumentCaptor<User> userCaptor;
+
+@Test
+void 인자_캡처_예시() {
+    userService.createUser(new User("홍길동"));
+
+    verify(userRepository).save(userCaptor.capture());
+    User captured = userCaptor.getValue();
+    assertThat(captured.getName()).isEqualTo("홍길동");
+}
+```
+
+#### BDD 스타일 vs 전통적 스타일
+
+```java
+// BDD 스타일 (권장) - 가독성이 좋음
+given(userRepository.findById(1L))
+    .willReturn(Optional.of(user));
+verify(userRepository).findById(1L);
+
+// 전통적 스타일
+when(userRepository.findById(1L))
+    .thenReturn(Optional.of(user));
+verify(userRepository).findById(1L);
+```
+
+#### Mock 사용 시 주의사항
+
+1. **Over-Mocking 주의**: Mock을 너무 많이 사용하면 실제 동작과 괴리가 발생할 수 있습니다.
+   ```java
+   // ❌ 너무 많은 Mock
+   @Mock private ServiceA serviceA;
+   @Mock private ServiceB serviceB;
+   @Mock private ServiceC serviceC;
+   @Mock private ServiceD serviceD;
+   // ... 실제 통합 테스트가 필요할 수 있음
+   ```
+
+2. **구현 세부사항 검증 지양**: "무엇을 하는지"보다 "어떻게 하는지"를 검증하면 리팩토링 시 테스트가 깨집니다.
+   ```java
+   // ❌ 구현 세부사항에 의존
+   verify(userRepository).findById(1L);
+   verify(userMapper).toDto(any());
+   verify(cache).put(anyString(), any());
+
+   // ✅ 결과에 집중
+   assertThat(result.getName()).isEqualTo("홍길동");
+   ```
+
+3. **final 클래스/메서드는 Mocking 불가**: Mockito는 기본적으로 final을 Mock할 수 없습니다 (mockito-inline 사용 시 가능).
+
+4. **static 메서드 Mocking**: 특별한 설정 필요 (MockedStatic 사용).
+
 ### 레이어별 테스트 전략
 
 #### 1. Controller Layer 테스트
@@ -462,6 +699,9 @@ src/test/java
 ```
 
 ## 핵심 정리
+- **Mocking**: 실제 객체를 대신하는 가짜 객체 생성, 호출 여부 검증 (`@Mock`, `verify()`)
+- **Stubbing**: Mock 객체의 반환값 정의, 다양한 시나리오 시뮬레이션 (`given()`, `willReturn()`)
+- Mocking과 Stubbing은 테스트 격리와 빠른 실행을 위해 필수적이며, 적절히 사용해야 실제 동작과의 괴리 방지
 - `@WebMvcTest`: Controller 레이어 슬라이스 테스트, Service는 `@MockBean`으로 모킹
 - `@DataJpaTest`: Repository 레이어 슬라이스 테스트, 내장 DB 자동 구성
 - `@SpringBootTest`: 전체 컨텍스트 로드, 통합 테스트용
