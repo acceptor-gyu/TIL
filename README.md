@@ -1,6 +1,10 @@
 # TIL
 학습 기록
 
+## SpringDataJPA
+- [Spring Data JPA 저장 방식 - save(), saveAll(), 배치 등](./260204_02_Spring_Data_JPA_저장_방식.md) - 2026.02.04
+- [Spring Data JPA 활용](./260204_01_Spring_Data_JPA_활용.md) - 2026.02.04
+
 ## SpringTest
 - [Spring Layered Architecture Test](./250203_01_Spring_Layered_Architecture_Test.md) - 2025.02.03
 
