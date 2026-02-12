@@ -22,8 +22,11 @@
 - [Claude Skills, SubAgent, AGENT.md의 차이](./260204_03_Claude_Skills_SubAgent_AGENT_md_차이.md) - 2026.02.04
 - [Claude Skills 활용 전략](./260129_01_Claude_Skills_활용_전략.md) - 2026.01.29
 
-## Database, Network
-- [Connection Pool](./260211_04_Connection_Pool.md) - 2026.02.11
+## Database
+- [Connection Pool](./260212_01_Connection_Pool.md) - 2026.02.12
 - [데이터베이스 삭제 메커니즘 DELETE와 VACUUM (Tombstone)](./260127_01_RDBMS_DELETE.md) - 2026.01.27
 - [MySQL Purge DEEP DIVE](./260127_02_MYSQL_PURGE.md) - 2026.01.27
+
+## Network
+- [TCP, UDP, HTTP](./260212_02_TCP_UDP_HTTP.md) - 2026.02.12
 - [네트워크에서 활용되는 Exponential Backoff](./260127_03_EXPONENTIAL_BACKOFF_ON_NETWORK.md) - 2026.01.27
