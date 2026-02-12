@@ -28,5 +28,6 @@
 - [MySQL Purge DEEP DIVE](./260127_02_MYSQL_PURGE.md) - 2026.01.27
 
 ## Network
+- [handshake 종류와 설명](./260212_03_handshake_종류와_설명.md) - 2026.02.12
 - [TCP, UDP, HTTP](./260212_02_TCP_UDP_HTTP.md) - 2026.02.12
 - [네트워크에서 활용되는 Exponential Backoff](./260127_03_EXPONENTIAL_BACKOFF_ON_NETWORK.md) - 2026.01.27
