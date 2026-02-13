@@ -1,6 +1,9 @@
 # TIL
 학습 기록
 
+## INTERVIEW
+- [사용자가 웹사이트에 처음 접근했을 때 발생하는 일련의 과정](260213_01_사용자가_웹사이트에_처음_접근했을_때_발생하는_일련의_과정.md) - 2026.02.13
+
 ## SpringDataJPA
 - [Spring Data JPA 저장 방식 - save(), saveAll(), 배치 등](./260204_02_Spring_Data_JPA_저장_방식.md) - 2026.02.04
 - [Spring Data JPA 활용](./260204_01_Spring_Data_JPA_활용.md) - 2026.02.04
