@@ -1,6 +1,7 @@
 ---
 name: add-til
-description: 새로운 TIL(Today I Learned) 항목을 생성하고 README에 자동으로 추가합니다
+model: opus
+description: 새로운 TIL(Today I Learned) 항목을 생성하고 제목에 적절한 내용을 template에 맞게 제목만 작성한다!
 disable-model-invocation: true
 argument-hint: [카테고리] [제목]
 ---
@@ -14,20 +15,19 @@ argument-hint: [카테고리] [제목]
 1. **오늘 날짜 확인**: YYMMDD 형식으로 오늘 날짜 생성
 2. **파일 번호 결정**: 같은 날짜의 기존 파일을 확인하여 다음 번호 부여
 3. **새 파일 생성**: `YYMMDD_번호_제목.md` 형식으로 마크다운 파일 생성
-4. **README 업데이트**: 날짜별 최신순, 같은 날이라면 생성 번호 내림차순으로 해당 카테고리에 새 항목 추가
-5. **내용 작성**: 양식에 맞는 또는 관련 내용 중 추가로 알았으면 좋은 내용을 공식 문서를 참고해서 작성
-6. **키워드 설명**: 작성한 내용 안에서 5~10개의 키워드를 골라 각 키워드에 대한 설명 작성
+4. **내용 작성**: 양식에 맞는 또는 관련 내용 중 추가로 알았으면 좋은 내용을 공식 문서를 참고해서 작성
+5. **키워드 선정**: 작성한 제목 및 목차에 적절한 키워드를 5 ~ 10개 선정
 
 ## 사용법
 
 ```
-/add-til [카테고리] [제목]
+/add-til-template [카테고리] [제목]
 ```
 
 **예시:**
-- `/add-til Database Redis 캐싱 전략`
-- `/add-til Network TCP 혼잡 제어`
-- `/add-til Algorithm 이진 탐색 트리`
+- `/add-til-template Database Redis 캐싱 전략`
+- `/add-til-template Network TCP 혼잡 제어`
+- `/add-til-template Algorithm 이진 탐색 트리`
 
 ## 인자 처리
 
@@ -37,6 +37,7 @@ argument-hint: [카테고리] [제목]
 ## 파일 템플릿
 
 새로 생성되는 마크다운 파일은 다음 구조를 따릅니다:
+- 필요한 경우 일부를 변경하여 활용해도 좋습니다.
 
 ```markdown
 # [제목]
@@ -61,12 +62,9 @@ argument-hint: [카테고리] [제목]
 
 - 카테고리가 README에 없으면 새로 생성
 - 파일명은 자동으로 스네이크 케이스로 변환 (공백 → 언더스코어)
-- README의 항목은 날짜 역순으로 정렬 (최신이 위)
 - 날짜 형식: YYYY.MM.DD
-- 참고 문서는 가능하면 공식문서를 참고하도록
 
 ## 실행 후 확인
 
 1. 새 마크다운 파일이 생성되었는지 확인
-2. README.md에 항목이 추가되었는지 확인
-3. 사용자에게 생성된 파일 경로와 다음 단계 안내
+2사용자에게 생성된 파일 경로와 다음 단계 안내
