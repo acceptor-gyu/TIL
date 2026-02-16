@@ -1,5 +1,5 @@
 ---
-name: add-til
+name: task-til
 model: sonnet
 description: TIL template이 생성된 제목 및 목차에 따라 내용을 작성하고 README에 자동으로 추가합니다
 disable-model-invocation: true

@@ -1,5 +1,5 @@
 ---
-name: add-til
+name: add-til-template
 model: opus
 description: 새로운 TIL(Today I Learned) 항목을 생성하고 제목에 적절한 내용을 template에 맞게 제목만 작성한다!
 disable-model-invocation: true
