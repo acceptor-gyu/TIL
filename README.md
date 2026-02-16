@@ -28,6 +28,7 @@
 - [Web Push Notification in Server](./260201_01_web_push_notification_in_server.md) - 2026.02.01
 
 ## Claude
+- [Claude 토큰 최적화 활용 방법](./260216_03_토큰_최적화_활용_방법.md) - 2026.02.16
 - [Claude Skills, SubAgent, AGENT.md의 차이](./260204_03_Claude_Skills_SubAgent_AGENT_md_차이.md) - 2026.02.04
 - [Claude Skills 활용 전략](./260129_01_Claude_Skills_활용_전략.md) - 2026.01.29
 
