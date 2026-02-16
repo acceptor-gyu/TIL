@@ -11,6 +11,7 @@
 - [SSL, TLS](260213_02_SSL_TLS.md) - 2026.02.13
 
 ## SpringDataJPA
+- [N+1 문제와 해결방법](./260216_04_N+1_문제와_해결방법.md) - 2026.02.16
 - [Spring Data JPA 저장 방식 - save(), saveAll(), 배치 등](./260204_02_Spring_Data_JPA_저장_방식.md) - 2026.02.04
 - [Spring Data JPA 활용](./260204_01_Spring_Data_JPA_활용.md) - 2026.02.04
 
