@@ -37,6 +37,9 @@
 - [데이터베이스 삭제 메커니즘 DELETE와 VACUUM (Tombstone)](./260127_01_RDBMS_DELETE.md) - 2026.01.27
 - [MySQL Purge DEEP DIVE](./260127_02_MYSQL_PURGE.md) - 2026.01.27
 
+## System-Architecture
+- [수강신청 시스템에서 초당 10,000건의 요청 처리 아키텍처](./260216_02_수강신청_시스템_초당_10000건_요청_처리_아키텍처.md) - 2026.02.16
+
 ## Network
 - [handshake 종류와 설명](./260212_03_handshake_종류와_설명.md) - 2026.02.12
 - [TCP, UDP, HTTP](./260212_02_TCP_UDP_HTTP.md) - 2026.02.12
