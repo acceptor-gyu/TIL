@@ -42,6 +42,9 @@
 ## System-Architecture
 - [수강신청 시스템에서 초당 10,000건의 요청 처리 아키텍처](./260216_02_수강신청_시스템_초당_10000건_요청_처리_아키텍처.md) - 2026.02.16
 
+## TroubleShooting
+- [실행 시간이 1분 이상인 쿼리와 DB Connection과의 관계](./260216_05_실행_시간이_1분_이상인_쿼리와_DB_connection과의_관계.md) - 2026.02.16
+
 ## Network
 - [handshake 종류와 설명](./260212_03_handshake_종류와_설명.md) - 2026.02.12
 - [TCP, UDP, HTTP](./260212_02_TCP_UDP_HTTP.md) - 2026.02.12
