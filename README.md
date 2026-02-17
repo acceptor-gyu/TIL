@@ -48,6 +48,10 @@
 ## trade-off
 - [모든 Entity는 불변 객체여야 할까? JPA에서는 어떨까?](./260217_01_모든_Entity는_불변_객체여야_할까_JPA에서는_어떨까.md) - 2026.02.17
 
+## API-DESIGN
+- [Spring Boot OSIV와 Projection/DTO 패턴](./260217_03_Spring_Boot_OSIV와_Projection_DTO_패턴.md) - 2026.02.17
+- [Controller에서 Entity를 직접 반환하는 것과 DTO를 사용하는 것](./260217_02_Controller에서_Entity를_직접_반환하는_것과_DTO를_사용하는_것.md) - 2026.02.17
+
 ## Network
 - [handshake 종류와 설명](./260212_03_handshake_종류와_설명.md) - 2026.02.12
 - [TCP, UDP, HTTP](./260212_02_TCP_UDP_HTTP.md) - 2026.02.12
