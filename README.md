@@ -57,6 +57,9 @@
 - [Spring Boot OSIV와 Projection/DTO 패턴](./260217_03_Spring_Boot_OSIV와_Projection_DTO_패턴.md) - 2026.02.17
 - [Controller에서 Entity를 직접 반환하는 것과 DTO를 사용하는 것](./260217_02_Controller에서_Entity를_직접_반환하는_것과_DTO를_사용하는_것.md) - 2026.02.17
 
+## Performance-Comparison
+- [N번 JOIN 단일 API vs 단순 SELECT N번 API 효율성 비교](./260219_01_N번_JOIN_단일_API_vs_단순_SELECT_N번_API_효율성_비교.md) - 2026.02.19
+
 ## Network
 - [handshake 종류와 설명](./260212_03_handshake_종류와_설명.md) - 2026.02.12
 - [TCP, UDP, HTTP](./260212_02_TCP_UDP_HTTP.md) - 2026.02.12
