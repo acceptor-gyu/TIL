@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "SubagentStop": [
+      {
+        "matcher": "add-til-template",
+        "hooks": [
+          {
+            "type": "prompt",
+            "prompt": "add-til-template 서브에이전트가 방금 종료되었습니다. /tmp/til-created-file.txt 파일을 읽어서 생성된 파일명을 확인하고, 해당 파일명으로 task-til 서브에이전트를 자동으로 호출하세요. Task tool을 사용하여 subagent_type='task-til'로 호출하되, prompt에는 '다음 파일의 내용을 작성하세요: [파일명]' 형식으로 전달하세요. 파일명을 찾을 수 없으면 아무 작업도 하지 마세요.",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}

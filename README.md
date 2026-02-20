@@ -34,6 +34,7 @@
 - [Claude Skills 활용 전략](./260129_01_Claude_Skills_활용_전략.md) - 2026.01.29
 
 ## Database
+- [RDBMS(MySQL) Lock 종류](./260220_01_RDBMS_MySQL_Lock_종류.md) - 2026.02.20
 - [비관적 락과 낙관적 락](./260216_01_비관적_락과_낙관적_락.md) - 2026.02.16
 - [Connection Pool](./260212_01_Connection_Pool.md) - 2026.02.12
 - [데이터베이스 삭제 메커니즘 DELETE와 VACUUM (Tombstone)](./260127_01_RDBMS_DELETE.md) - 2026.01.27
