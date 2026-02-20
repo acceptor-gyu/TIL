@@ -34,6 +34,7 @@
 - [Claude Skills 활용 전략](./260129_01_Claude_Skills_활용_전략.md) - 2026.01.29
 
 ## Database
+- [RDBMS(MySQL) index와 B+Tree](./260220_04_RDBMS_MySQL_index와_B+Tree.md) - 2026.02.20
 - [RDBMS(MySQL) MVCC](./260220_03_RDBMS_MySQL_MVCC.md) - 2026.02.20
 - [RDBMS(MySQL) 트랜잭션 격리 수준](./260220_02_RDBMS_MySQL_트랜잭션_격리_수준.md) - 2026.02.20
 - [RDBMS(MySQL) Lock 종류](./260220_01_RDBMS_MySQL_Lock_종류.md) - 2026.02.20
