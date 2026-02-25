@@ -34,6 +34,7 @@
 - [Claude Skills 활용 전략](./260129_01_Claude_Skills_활용_전략.md) - 2026.01.29
 
 ## Database
+- [MySQL 2대 구성 시 Read Replica 데이터 정합성](./260225_01_MySQL_Replication_데이터_정합성.md) - 2026.02.25
 - [2-Phase Locking (2PL)](./260223_01_2_Phase_Locking.md) - 2026.02.23
 - [RDBMS(MySQL) index와 B+Tree](./260220_04_RDBMS_MySQL_index와_B+Tree.md) - 2026.02.20
 - [RDBMS(MySQL) MVCC](./260220_03_RDBMS_MySQL_MVCC.md) - 2026.02.20
