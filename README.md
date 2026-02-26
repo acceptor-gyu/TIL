@@ -34,6 +34,7 @@
 - [Claude Skills 활용 전략](./260129_01_Claude_Skills_활용_전략.md) - 2026.01.29
 
 ## Database
+- [Transaction Isolation Level - READ COMMITTED와 REQUIRES_NEW의 관계](./260226_01_Transaction_Isolation_Level_READ_COMMITTED와_REQUIRES_NEW의_관계.md) - 2026.02.26
 - [RDBMS, binlog, Elasticsearch 함께 활용해서 성능 좋은 DB 역할하기](./260225_02_RDBMS_binlog_Elasticsearch_활용.md) - 2026.02.25
 - [MySQL 2대 구성 시 Read Replica 데이터 정합성](./260225_01_MySQL_Replication_데이터_정합성.md) - 2026.02.25
 - [2-Phase Locking (2PL)](./260223_01_2_Phase_Locking.md) - 2026.02.23
