@@ -71,6 +71,9 @@
 ## Concurrency
 - [Java CountDownLatch](./260223_02_Java_CountDownLatch.md) - 2026.02.23
 
+## Spring-Boot
+- [REQUIRES_NEW를 사용할 때 getBean()을 사용해야 하는 이유](./260226_02_REQUIRES_NEW를_사용할_때_getBean을_사용해야_하는_이유.md) - 2026.02.26
+
 ## Network
 - [handshake 종류와 설명](./260212_03_handshake_종류와_설명.md) - 2026.02.12
 - [TCP, UDP, HTTP](./260212_02_TCP_UDP_HTTP.md) - 2026.02.12
