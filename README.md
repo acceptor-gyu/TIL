@@ -72,6 +72,7 @@
 - [Java CountDownLatch](./260223_02_Java_CountDownLatch.md) - 2026.02.23
 
 ## Spring-Boot
+- [REQUIRES_NEW를 사용해야 하는 상황과 사용할 때 주의할 점](./260227_01_REQUIRES_NEW를_사용해야_하는_상황과_주의할_점.md) - 2026.02.27
 - [REQUIRES_NEW를 사용할 때 getBean()을 사용해야 하는 이유](./260226_02_REQUIRES_NEW를_사용할_때_getBean을_사용해야_하는_이유.md) - 2026.02.26
 
 ## Network
