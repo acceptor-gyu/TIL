@@ -53,6 +53,7 @@
 - [SSL, TLS](./Network-Security/260213_02_SSL_TLS.md) - 2026.02.13
 
 ## OOP
+- [빌더 패턴 (with Lombok @Builder)](./OOP/260306_01_빌더_패턴_with_Lombok_Builder.md) - 2026.03.06
 - [SOLID 원칙이란](./OOP/260305_01_SOLID_원칙이란.md) - 2026.03.05
 
 ## OperationSystem
