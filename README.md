@@ -40,6 +40,9 @@
 - [데이터베이스 삭제 메커니즘 DELETE와 VACUUM (Tombstone)](./Database/260127_01_RDBMS_DELETE.md) - 2026.01.27
 - [MySQL Purge DEEP DIVE](./Database/260127_02_MYSQL_PURGE.md) - 2026.01.27
 
+## Java
+- [Record를 DTO로 사용하는 이유는 무엇인가](./Java/260307_02_Record를_DTO로_사용하는_이유는_무엇인가.md) - 2026.03.07
+
 ## INTERVIEW
 - [사용자가 웹사이트에 처음 접근했을 때 발생하는 일련의 과정](./INTERVIEW/260213_01_사용자가_웹사이트에_처음_접근했을_때_발생하는_일련의_과정.md) - 2026.02.13
 
