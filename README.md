@@ -60,7 +60,8 @@
 - [SOLID 원칙이란](./OOP/260305_01_SOLID_원칙이란.md) - 2026.03.05
 
 ## OperationSystem
-- [스레드, 프로세스, 코어](./OperationSystem/260211_03_스레드_프로세스_코어.md) - 2026.02.11
+- [스레드, 프로세스, 코어](OPERATING-SYSTEM/260211_03_스레드_프로세스_코어.md) - 2026.02.11
+- [운영체제란](./OPERATING-SYSTEM/260309_01_운영체제란.md) - 2026.03.09
 
 ## Performance-Comparison
 - [N번 JOIN 단일 API vs 단순 SELECT N번 API 효율성 비교](./Performance-Comparison/260219_01_N번_JOIN_단일_API_vs_단순_SELECT_N번_API_효율성_비교.md) - 2026.02.19
