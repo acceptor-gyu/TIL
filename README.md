@@ -79,6 +79,7 @@
 - [Spring Layered Architecture Test](./SpringTest/260203_01_Spring_Layered_Architecture_Test.md) - 2025.02.03
 
 ## System-Architecture
+- [로드밸런싱이란](./System-Architecture/260309_02_로드밸런싱이란.md) - 2026.03.09
 - [DB Replication](./System-Architecture/260307_01_DB_Replication.md) - 2026.03.07
 - [다중 서버 환경에서 사용자 인증 - Session vs Token](./System-Architecture/260306_03_다중_서버_환경에서_사용자_인증_Session_vs_Token.md) - 2026.03.06
 - [수강신청 시스템 동시성 처리 @Transactional isolation read committed](./System-Architecture/260306_02_수강신청_시스템_동시성_처리_Transactional_isolation_read_committed.md) - 2026.03.06
