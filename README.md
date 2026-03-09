@@ -23,8 +23,9 @@
 ## Concurrency
 - [Java CountDownLatch](./Concurrency/260223_02_Java_CountDownLatch.md) - 2026.02.23
 
-## data-structure
-- [Stack, Queue, Deque, PriorityQueue](./data-structure/260213_03_Stack_Queue_Deque_PriorityQueue.md) - 2026.02.13
+## DATA-STRUCTURE
+- [Set 자료구조에서 get() 메서드의 시간 복잡도가 O(1)이 되는 원리](./DATA-STRUCTURE/260309_03_Set_자료구조에서_get_메서드의_시간_복잡도가_O1이_되는_원리.md) - 2026.03.09
+- [Stack, Queue, Deque, PriorityQueue](./DATA-STRUCTURE/260213_03_Stack_Queue_Deque_PriorityQueue.md) - 2026.02.13
 
 ## Database
 - [Transaction Isolation Level - READ COMMITTED와 REQUIRES_NEW의 관계](./Database/260226_01_Transaction_Isolation_Level_READ_COMMITTED와_REQUIRES_NEW의_관계.md) - 2026.02.26
