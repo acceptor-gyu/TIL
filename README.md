@@ -28,6 +28,7 @@
 - [Stack, Queue, Deque, PriorityQueue](./DATA-STRUCTURE/260213_03_Stack_Queue_Deque_PriorityQueue.md) - 2026.02.13
 
 ## Database
+- [MySQL scan 종류와 특징](./DATABASE/260311_03_MySQL_scan_종류와_특징.md) - 2026.03.11
 - [MySQL Optimizer Condition Pushdown](./DATABASE/260311_02_MySQL_Optimizer_Condition_Pushdown.md) - 2026.03.11
 - [ALTER TABLE column type 변경 시 RDBMS의 전략](./Database/260311_01_ALTER_TABLE_column_type_변경_시_RDBMS의_전략.md) - 2026.03.11
 - [Transaction Isolation Level - READ COMMITTED와 REQUIRES_NEW의 관계](./Database/260226_01_Transaction_Isolation_Level_READ_COMMITTED와_REQUIRES_NEW의_관계.md) - 2026.02.26
