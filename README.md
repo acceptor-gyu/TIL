@@ -45,11 +45,14 @@
 - [데이터베이스 삭제 메커니즘 DELETE와 VACUUM (Tombstone)](./Database/260127_01_RDBMS_DELETE.md) - 2026.01.27
 - [MySQL Purge DEEP DIVE](./Database/260127_02_MYSQL_PURGE.md) - 2026.01.27
 
-## Java
-- [Record를 DTO로 사용하는 이유는 무엇인가](./Java/260307_02_Record를_DTO로_사용하는_이유는_무엇인가.md) - 2026.03.07
-
 ## INTERVIEW
 - [사용자가 웹사이트에 처음 접근했을 때 발생하는 일련의 과정](./INTERVIEW/260213_01_사용자가_웹사이트에_처음_접근했을_때_발생하는_일련의_과정.md) - 2026.02.13
+
+## Java
+- [Record를 DTO로 사용하3는 이유는 무엇인가](./Java/260307_02_Record를_DTO로_사용하는_이유는_무엇인가.md) - 2026.03.07
+
+## MONITORING
+- [Datadog 활용하기](MONITORING/260313_01_Datadog_활용하기.md) - 2026.03.13
 
 ## Network
 - [OSI 7 Layer](./Network/260302_02_OSI_7_Layer.md) - 2026.03.02
@@ -84,6 +87,7 @@
 - [Spring Layered Architecture Test](./SpringTest/260203_01_Spring_Layered_Architecture_Test.md) - 2025.02.03
 
 ## System-Architecture
+- [Datadog 활용하기](MONITORING/260313_01_Datadog_활용하기.md) - 2026.03.13
 - [로드밸런싱이란](./System-Architecture/260309_02_로드밸런싱이란.md) - 2026.03.09
 - [DB Replication](./System-Architecture/260307_01_DB_Replication.md) - 2026.03.07
 - [다중 서버 환경에서 사용자 인증 - Session vs Token](./System-Architecture/260306_03_다중_서버_환경에서_사용자_인증_Session_vs_Token.md) - 2026.03.06
