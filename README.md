@@ -28,6 +28,7 @@
 - [Stack, Queue, Deque, PriorityQueue](./DATA-STRUCTURE/260213_03_Stack_Queue_Deque_PriorityQueue.md) - 2026.02.13
 
 ## Database
+- [MySQL 핵심 로그와 활용도](./DATABASE/260314_02_MySQL_핵심_로그와_활용도.md) - 2026.03.14
 - [트랜잭션 ACID](./DATABASE/260314_01_트랜잭션_ACID.md) - 2026.03.14
 - [MySQL I/O 종류 (Random Access vs Sequential Access)](./DATABASE/260312_01_MySQL_IO_종류_Random_Access_vs_Sequential_Access.md) - 2026.03.12
 - [MySQL scan 종류와 특징](./DATABASE/260311_03_MySQL_scan_종류와_특징.md) - 2026.03.11
