@@ -104,5 +104,8 @@
 ## trade-off
 - [모든 Entity는 불변 객체여야 할까? JPA에서는 어떨까?](./trade-off/260217_01_모든_Entity는_불변_객체여야_할까_JPA에서는_어떨까.md) - 2026.02.17
 
+## UX
+- [기존 서비스에 다국어 제공](./UX/260317_01_기존_서비스에_다국어_제공.md) - 2026.03.17
+
 ## TroubleShooting
 - [실행 시간이 1분 이상인 쿼리와 DB Connection과의 관계](./TroubleShooting/260216_05_실행_시간이_1분_이상인_쿼리와_DB_connection과의_관계.md) - 2026.02.16
