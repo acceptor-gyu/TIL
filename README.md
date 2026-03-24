@@ -27,6 +27,9 @@
 - [Set 자료구조에서 get() 메서드의 시간 복잡도가 O(1)이 되는 원리](./DATA-STRUCTURE/260309_03_Set_자료구조에서_get_메서드의_시간_복잡도가_O1이_되는_원리.md) - 2026.03.09
 - [Stack, Queue, Deque, PriorityQueue](./DATA-STRUCTURE/260213_03_Stack_Queue_Deque_PriorityQueue.md) - 2026.02.13
 
+## DEVLOG
+- [대규모 트래픽 환경을 운영하는 e-commerce 시스템에서 Elasticsearch 활용 전략](./DEVLOG/260324_02_E-commerce_시스템에서_Elasticsearch_활용_전략.md) - 2026.03.24
+
 ## Database
 - [MySQL ReentrantLock](./DATABASE/260319_01_MySQL_ReentrantLock.md) - 2026.03.19
 - [MySQL 핵심 로그와 활용도](./DATABASE/260314_02_MySQL_핵심_로그와_활용도.md) - 2026.03.14
