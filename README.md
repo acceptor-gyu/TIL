@@ -91,6 +91,7 @@
 - [Spring Layered Architecture Test](./SpringTest/260203_01_Spring_Layered_Architecture_Test.md) - 2025.02.03
 
 ## System-Architecture
+- [SQS와 Kafka의 차이](./System-Architecture/260324_01_SQS와_Kafka의_차이.md) - 2026.03.24
 - [Datadog 활용하기](MONITORING/260313_01_Datadog_활용하기.md) - 2026.03.13
 - [로드밸런싱이란](./System-Architecture/260309_02_로드밸런싱이란.md) - 2026.03.09
 - [DB Replication](./System-Architecture/260307_01_DB_Replication.md) - 2026.03.07
