@@ -28,6 +28,7 @@
 - [Stack, Queue, Deque, PriorityQueue](./DATA-STRUCTURE/260213_03_Stack_Queue_Deque_PriorityQueue.md) - 2026.02.13
 
 ## DEVLOG
+- [제한 시간 게임 중도 종료 유저 데이터 관리](./DEVLOG/260327_01_제한_시간_게임_중도_종료_유저_데이터_관리.md) - 2026.03.27
 - [대규모 트래픽 환경을 운영하는 e-commerce 시스템에서 Elasticsearch 활용 전략](./DEVLOG/260324_02_E-commerce_시스템에서_Elasticsearch_활용_전략.md) - 2026.03.24
 
 ## Database
