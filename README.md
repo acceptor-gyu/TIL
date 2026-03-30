@@ -33,6 +33,7 @@
 - [대규모 트래픽 환경을 운영하는 e-commerce 시스템에서 Elasticsearch 활용 전략](./DEVLOG/260324_02_E-commerce_시스템에서_Elasticsearch_활용_전략.md) - 2026.03.24
 
 ## Database
+- [gh-ost (GitHub Online Schema Transmogrifier)](./Database/260328_01_gh-ost.md) - 2026.03.28
 - [MySQL ReentrantLock](./DATABASE/260319_01_MySQL_ReentrantLock.md) - 2026.03.19
 - [MySQL 핵심 로그와 활용도](./DATABASE/260314_02_MySQL_핵심_로그와_활용도.md) - 2026.03.14
 - [트랜잭션 ACID](./DATABASE/260314_01_트랜잭션_ACID.md) - 2026.03.14
