@@ -121,7 +121,7 @@
 - [MySQL Purge DEEP DIVE](./Database/260127_02_MYSQL_PURGE.md) - 2026.01.27
 
 ## Docker
-- [BuildKit 캐시 마운트와 빌드 시간 단축](./Docker/260401_01_BuildKit_캐시_마운트와_빌드_시간_단축.md) - 2026.04.01
+- [BuildKit 캐시 마운트와 빌드 시간 단축](DOCKER/260401_01_BuildKit_캐시_마운트와_빌드_시간_단축.md) - 2026.04.01
 
 ## INTERVIEW
 - [사용자가 웹사이트에 처음 접근했을 때 발생하는 일련의 과정](./INTERVIEW/260213_01_사용자가_웹사이트에_처음_접근했을_때_발생하는_일련의_과정.md) - 2026.02.13
