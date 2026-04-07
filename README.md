@@ -65,6 +65,7 @@
 ---
 
 ## AI
+- [Pi Coding Agents](./AI/260406_03_Pi_Coding_Agents.md) - 2026.04.06
 - [하네스 아키텍처 (Harness Architecture)](./AI/260406_02_하네스_아키텍처.md) - 2026.04.06
 - [Gmail MCP 서버와 Claude Code 스케줄 태스크 연동 자동화](./AI/260406_01_Gmail_MCP_서버와_Claude_Code_스케줄_태스크_연동_자동화.md) - 2026.04.06
 - [AI 기술을 활용한 새로운 시도와 문제 해결 사례](./AI/260404_01_AI_기술을_활용한_새로운_시도와_문제_해결_사례.md) - 2026.04.04
