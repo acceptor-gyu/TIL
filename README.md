@@ -94,7 +94,8 @@
 - [Claude Skills 활용 전략](./Claude/260129_01_Claude_Skills_활용_전략.md) - 2026.01.29
 
 ## Concurrency
-- [Java CountDownLatch](./Concurrency/260223_02_Java_CountDownLatch.md) - 2026.02.23
+- [Worker Pool 패턴](./CONCURRENCY/260410_01_Worker_Pool_패턴.md) - 2026.04.10
+- [Java CountDownLatch](CONCURRENCY/260223_02_Java_CountDownLatch.md) - 2026.02.23
 
 ## DATA-STRUCTURE
 - [Set 자료구조에서 get() 메서드의 시간 복잡도가 O(1)이 되는 원리](./DATA-STRUCTURE/260309_03_Set_자료구조에서_get_메서드의_시간_복잡도가_O1이_되는_원리.md) - 2026.03.09
