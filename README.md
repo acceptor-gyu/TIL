@@ -65,6 +65,7 @@
 ---
 
 ## AI
+- [하네스 엔지니어링 (Harness Engineering)](./AI/260414_01_Harness_Engineering.md) - 2026.04.14
 - [pi extension으로 개인 CLI Tool 만들기](./AI/260407_01_pi_extension으로_개인_CLI_Tool_만들기.md) - 2026.04.07
 - [Pi Coding Agents](./AI/260406_03_Pi_Coding_Agents.md) - 2026.04.06
 - [하네스 아키텍처 (Harness Architecture)](./AI/260406_02_하네스_아키텍처.md) - 2026.04.06
