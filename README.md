@@ -108,27 +108,27 @@
 - [대규모 트래픽 환경을 운영하는 e-commerce 시스템에서 Elasticsearch 활용 전략](./DEVLOG/260324_02_E-commerce_시스템에서_Elasticsearch_활용_전략.md) - 2026.03.24
 
 ## Database
-- [Elasticsearch를 활용해 검색 엔진 품질 높이기](./Database/260402_01_Elasticsearch를_활용해_검색_엔진_품질_높이기.md) - 2026.04.02
-- [gh-ost (GitHub Online Schema Transmogrifier)](./Database/260328_01_gh-ost.md) - 2026.03.28
+- [Elasticsearch를 활용해 검색 엔진 품질 높이기](RDBMS/260402_01_Elasticsearch를_활용해_검색_엔진_품질_높이기.md) - 2026.04.02
+- [gh-ost (GitHub Online Schema Transmogrifier)](RDBMS/260328_01_gh-ost.md) - 2026.03.28
 - [MySQL ReentrantLock](./DATABASE/260319_01_MySQL_ReentrantLock.md) - 2026.03.19
 - [MySQL 핵심 로그와 활용도](./DATABASE/260314_02_MySQL_핵심_로그와_활용도.md) - 2026.03.14
 - [트랜잭션 ACID](./DATABASE/260314_01_트랜잭션_ACID.md) - 2026.03.14
 - [MySQL I/O 종류 (Random Access vs Sequential Access)](./DATABASE/260312_01_MySQL_IO_종류_Random_Access_vs_Sequential_Access.md) - 2026.03.12
 - [MySQL scan 종류와 특징](./DATABASE/260311_03_MySQL_scan_종류와_특징.md) - 2026.03.11
 - [MySQL Optimizer Condition Pushdown](./DATABASE/260311_02_MySQL_Optimizer_Condition_Pushdown.md) - 2026.03.11
-- [ALTER TABLE column type 변경 시 RDBMS의 전략](./Database/260311_01_ALTER_TABLE_column_type_변경_시_RDBMS의_전략.md) - 2026.03.11
-- [Transaction Isolation Level - READ COMMITTED와 REQUIRES_NEW의 관계](./Database/260226_01_Transaction_Isolation_Level_READ_COMMITTED와_REQUIRES_NEW의_관계.md) - 2026.02.26
-- [RDBMS, binlog, Elasticsearch 함께 활용해서 성능 좋은 DB 역할하기](./Database/260225_02_RDBMS_binlog_Elasticsearch_활용.md) - 2026.02.25
-- [MySQL 2대 구성 시 Read Replica 데이터 정합성](./Database/260225_01_MySQL_Replication_데이터_정합성.md) - 2026.02.25
-- [2-Phase Locking (2PL)](./Database/260223_01_2_Phase_Locking.md) - 2026.02.23
-- [RDBMS(MySQL) index와 B+Tree](./Database/260220_04_RDBMS_MySQL_index와_B+Tree.md) - 2026.02.20
-- [RDBMS(MySQL) MVCC](./Database/260220_03_RDBMS_MySQL_MVCC.md) - 2026.02.20
-- [RDBMS(MySQL) 트랜잭션 격리 수준](./Database/260220_02_RDBMS_MySQL_트랜잭션_격리_수준.md) - 2026.02.20
-- [RDBMS(MySQL) Lock 종류](./Database/260220_01_RDBMS_MySQL_Lock_종류.md) - 2026.02.20
-- [비관적 락과 낙관적 락](./Database/260216_01_비관적_락과_낙관적_락.md) - 2026.02.16
-- [Connection Pool](./Database/260212_01_Connection_Pool.md) - 2026.02.12
-- [데이터베이스 삭제 메커니즘 DELETE와 VACUUM (Tombstone)](./Database/260127_01_RDBMS_DELETE.md) - 2026.01.27
-- [MySQL Purge DEEP DIVE](./Database/260127_02_MYSQL_PURGE.md) - 2026.01.27
+- [ALTER TABLE column type 변경 시 RDBMS의 전략](RDBMS/260311_01_ALTER_TABLE_column_type_변경_시_RDBMS의_전략.md) - 2026.03.11
+- [Transaction Isolation Level - READ COMMITTED와 REQUIRES_NEW의 관계](RDBMS/260226_01_Transaction_Isolation_Level_READ_COMMITTED와_REQUIRES_NEW의_관계.md) - 2026.02.26
+- [RDBMS, binlog, Elasticsearch 함께 활용해서 성능 좋은 DB 역할하기](RDBMS/260225_02_RDBMS_binlog_Elasticsearch_활용.md) - 2026.02.25
+- [MySQL 2대 구성 시 Read Replica 데이터 정합성](RDBMS/260225_01_MySQL_Replication_데이터_정합성.md) - 2026.02.25
+- [2-Phase Locking (2PL)](RDBMS/260223_01_2_Phase_Locking.md) - 2026.02.23
+- [RDBMS(MySQL) index와 B+Tree](RDBMS/260220_04_RDBMS_MySQL_index와_B+Tree.md) - 2026.02.20
+- [RDBMS(MySQL) MVCC](RDBMS/260220_03_RDBMS_MySQL_MVCC.md) - 2026.02.20
+- [RDBMS(MySQL) 트랜잭션 격리 수준](RDBMS/260220_02_RDBMS_MySQL_트랜잭션_격리_수준.md) - 2026.02.20
+- [RDBMS(MySQL) Lock 종류](RDBMS/260220_01_RDBMS_MySQL_Lock_종류.md) - 2026.02.20
+- [비관적 락과 낙관적 락](RDBMS/260216_01_비관적_락과_낙관적_락.md) - 2026.02.16
+- [Connection Pool](RDBMS/260212_01_Connection_Pool.md) - 2026.02.12
+- [데이터베이스 삭제 메커니즘 DELETE와 VACUUM (Tombstone)](RDBMS/260127_01_RDBMS_DELETE.md) - 2026.01.27
+- [MySQL Purge DEEP DIVE](RDBMS/260127_02_MYSQL_PURGE.md) - 2026.01.27
 
 ## Docker
 - [BuildKit 캐시 마운트와 빌드 시간 단축](DOCKER/260401_01_BuildKit_캐시_마운트와_빌드_시간_단축.md) - 2026.04.01
@@ -197,6 +197,9 @@
 
 ## UX
 - [기존 서비스에 다국어 제공](./UX/260317_01_기존_서비스에_다국어_제공.md) - 2026.03.17
+
+## VECTOR-DATABASE
+- [벡터 데이터베이스 종류와 활용](./VECTOR-DATABASE/260417_01_벡터_데이터베이스_종류와_활용.md) - 2026.04.17
 
 ## TroubleShooting
 - [실행 시간이 1분 이상인 쿼리와 DB Connection과의 관계](./TroubleShooting/260216_05_실행_시간이_1분_이상인_쿼리와_DB_connection과의_관계.md) - 2026.02.16
