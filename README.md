@@ -65,6 +65,8 @@
 ---
 
 ## AI
+- [Anthropic Multi-Agent 3-Step Harness Design](./AI/260419_01_Anthropic_Multi-Agent_3-Step_Harness_Design.md) - 2026.04.19
+- [NLP(자연어 처리) 기초](./AI/260418_01_NLP_자연어_처리_기초.md) - 2026.04.18
 - [하네스 엔지니어링 (Harness Engineering)](./AI/260414_01_Harness_Engineering.md) - 2026.04.14
 - [pi extension으로 개인 CLI Tool 만들기](./AI/260407_01_pi_extension으로_개인_CLI_Tool_만들기.md) - 2026.04.07
 - [Pi Coding Agents](./AI/260406_03_Pi_Coding_Agents.md) - 2026.04.06
@@ -132,6 +134,9 @@
 
 ## Docker
 - [BuildKit 캐시 마운트와 빌드 시간 단축](DOCKER/260401_01_BuildKit_캐시_마운트와_빌드_시간_단축.md) - 2026.04.01
+
+## INFRA
+- [Terraform은 무엇이고 어떻게 활용하는가](./INFRA/260417_01_Terraform은_무엇이고_어떻게_활용하는가.md) - 2026.04.17
 
 ## INTERVIEW
 - [사용자가 웹사이트에 처음 접근했을 때 발생하는 일련의 과정](./INTERVIEW/260213_01_사용자가_웹사이트에_처음_접근했을_때_발생하는_일련의_과정.md) - 2026.02.13
