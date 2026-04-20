@@ -65,6 +65,7 @@
 ---
 
 ## AI
+- [AI Harness Design Sample](./AI/260419_02_AI_Harness_Design_Sample.md) - 2026.04.19
 - [Anthropic Multi-Agent 3-Step Harness Design](./AI/260419_01_Anthropic_Multi-Agent_3-Step_Harness_Design.md) - 2026.04.19
 - [NLP(자연어 처리) 기초](./AI/260418_01_NLP_자연어_처리_기초.md) - 2026.04.18
 - [하네스 엔지니어링 (Harness Engineering)](./AI/260414_01_Harness_Engineering.md) - 2026.04.14
