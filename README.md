@@ -185,14 +185,15 @@
 - [Spring Layered Architecture Test](./SpringTest/260203_01_Spring_Layered_Architecture_Test.md) - 2025.02.03
 
 ## System-Architecture
-- [SQS와 Kafka의 차이](./System-Architecture/260324_01_SQS와_Kafka의_차이.md) - 2026.03.24
+- [Layered Architecture의 장점과 도입 이유](SYSTEM-ARCHITECTURE/260420_01_Layered_Architecture의_장점과_도입_이유.md) - 2026.04.20
+- [SQS와 Kafka의 차이](SYSTEM-ARCHITECTURE/260324_01_SQS와_Kafka의_차이.md) - 2026.03.24
 - [Datadog 활용하기](MONITORING/260313_01_Datadog_활용하기.md) - 2026.03.13
-- [로드밸런싱이란](./System-Architecture/260309_02_로드밸런싱이란.md) - 2026.03.09
-- [DB Replication](./System-Architecture/260307_01_DB_Replication.md) - 2026.03.07
-- [다중 서버 환경에서 사용자 인증 - Session vs Token](./System-Architecture/260306_03_다중_서버_환경에서_사용자_인증_Session_vs_Token.md) - 2026.03.06
-- [수강신청 시스템 동시성 처리 @Transactional isolation read committed](./System-Architecture/260306_02_수강신청_시스템_동시성_처리_Transactional_isolation_read_committed.md) - 2026.03.06
-- [트래픽 급증 대응 아키텍처 설계 지침](./System-Architecture/260218_03_트래픽_급증_대응_아키텍처_설계_지침.md) - 2026.02.18
-- [수강신청 시스템에서 초당 10,000건의 요청 처리 아키텍처](./System-Architecture/260216_02_수강신청_시스템_초당_10000건_요청_처리_아키텍처.md) - 2026.02.16
+- [로드밸런싱이란](SYSTEM-ARCHITECTURE/260309_02_로드밸런싱이란.md) - 2026.03.09
+- [DB Replication](SYSTEM-ARCHITECTURE/260307_01_DB_Replication.md) - 2026.03.07
+- [다중 서버 환경에서 사용자 인증 - Session vs Token](SYSTEM-ARCHITECTURE/260306_03_다중_서버_환경에서_사용자_인증_Session_vs_Token.md) - 2026.03.06
+- [수강신청 시스템 동시성 처리 @Transactional isolation read committed](SYSTEM-ARCHITECTURE/260306_02_수강신청_시스템_동시성_처리_Transactional_isolation_read_committed.md) - 2026.03.06
+- [트래픽 급증 대응 아키텍처 설계 지침](SYSTEM-ARCHITECTURE/260218_03_트래픽_급증_대응_아키텍처_설계_지침.md) - 2026.02.18
+- [수강신청 시스템에서 초당 10,000건의 요청 처리 아키텍처](SYSTEM-ARCHITECTURE/260216_02_수강신청_시스템_초당_10000건_요청_처리_아키텍처.md) - 2026.02.16
 
 ## TestCode
 - [동시성 테스트](./TestCode/260211_02_동시성_테스트.md) - 2026.02.11
