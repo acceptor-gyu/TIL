@@ -91,12 +91,12 @@
 - [Controller에서 Entity를 직접 반환하는 것과 DTO를 사용하는 것](./API-DESIGN/260217_02_Controller에서_Entity를_직접_반환하는_것과_DTO를_사용하는_것.md) - 2026.02.17
 
 ## Claude
-- [Claude Code 메인 세션과 서브 에이전트 세션의 차이](./Claude/260331_02_Claude_Code_메인_세션과_서브_에이전트_세션의_차이.md) - 2026.03.31
-- [Claude Code를 잘 활용하기 위해 알아야 하는 상식](Claude/260331_01_Claude_Code를_잘_활용하기_위해_알아야_하는_상식.md) - 2026.03.31
-- [CLAUDE 서브 에이전트를 활용한 자동화 파이프라인](./Claude/260330_01_CLAUDE_서브_에이전트를_활용한_자동화_파이프라인.md) - 2026.03.30
-- [Claude 토큰 최적화 활용 방법](./Claude/260216_03_토큰_최적화_활용_방법.md) - 2026.02.16
-- [Claude Skills, SubAgent, AGENT.md의 차이](./Claude/260204_03_Claude_Skills_SubAgent_AGENT_md_차이.md) - 2026.02.04
-- [Claude Skills 활용 전략](./Claude/260129_01_Claude_Skills_활용_전략.md) - 2026.01.29
+- [Claude Code 메인 세션과 서브 에이전트 세션의 차이](CLAUDE/260331_02_Claude_Code_메인_세션과_서브_에이전트_세션의_차이.md) - 2026.03.31
+- [Claude Code를 잘 활용하기 위해 알아야 하는 상식](CLAUDE/260331_01_Claude_Code를_잘_활용하기_위해_알아야_하는_상식.md) - 2026.03.31
+- [CLAUDE 서브 에이전트를 활용한 자동화 파이프라인](CLAUDE/260330_01_CLAUDE_서브_에이전트를_활용한_자동화_파이프라인.md) - 2026.03.30
+- [Claude 토큰 최적화 활용 방법](CLAUDE/260216_03_토큰_최적화_활용_방법.md) - 2026.02.16
+- [Claude Skills, SubAgent, AGENT.md의 차이](CLAUDE/260204_03_Claude_Skills_SubAgent_AGENT_md_차이.md) - 2026.02.04
+- [Claude Skills 활용 전략](CLAUDE/260129_01_Claude_Skills_활용_전략.md) - 2026.01.29
 
 ## Concurrency
 - [Worker Pool 패턴](./CONCURRENCY/260410_01_Worker_Pool_패턴.md) - 2026.04.10
@@ -174,16 +174,16 @@
 - [N번 JOIN 단일 API vs 단순 SELECT N번 API 효율성 비교](./Performance-Comparison/260219_01_N번_JOIN_단일_API_vs_단순_SELECT_N번_API_효율성_비교.md) - 2026.02.19
 
 ## Spring-Boot
-- [REQUIRES_NEW를 사용해야 하는 상황과 사용할 때 주의할 점](./Spring-Boot/260227_01_REQUIRES_NEW를_사용해야_하는_상황과_주의할_점.md) - 2026.02.27
-- [REQUIRES_NEW를 사용할 때 getBean()을 사용해야 하는 이유](./Spring-Boot/260226_02_REQUIRES_NEW를_사용할_때_getBean을_사용해야_하는_이유.md) - 2026.02.26
+- [REQUIRES_NEW를 사용해야 하는 상황과 사용할 때 주의할 점](SPRING-BOOT/260227_01_REQUIRES_NEW를_사용해야_하는_상황과_주의할_점.md) - 2026.02.27
+- [REQUIRES_NEW를 사용할 때 getBean()을 사용해야 하는 이유](SPRING-BOOT/260226_02_REQUIRES_NEW를_사용할_때_getBean을_사용해야_하는_이유.md) - 2026.02.26
 
 ## SpringDataJPA
-- [N+1 문제와 해결방법](./SpringDataJPA/260216_04_N+1_문제와_해결방법.md) - 2026.02.16
-- [Spring Data JPA 저장 방식 - save(), saveAll(), 배치 등](./SpringDataJPA/260204_02_Spring_Data_JPA_저장_방식.md) - 2026.02.04
-- [Spring Data JPA 활용](./SpringDataJPA/260204_01_Spring_Data_JPA_활용.md) - 2026.02.04
+- [N+1 문제와 해결방법](SPRING-DATA-JPA/260216_04_N+1_문제와_해결방법.md) - 2026.02.16
+- [Spring Data JPA 저장 방식 - save(), saveAll(), 배치 등](SPRING-DATA-JPA/260204_02_Spring_Data_JPA_저장_방식.md) - 2026.02.04
+- [Spring Data JPA 활용](SPRING-DATA-JPA/260204_01_Spring_Data_JPA_활용.md) - 2026.02.04
 
 ## SpringTest
-- [Spring Layered Architecture Test](./SpringTest/260203_01_Spring_Layered_Architecture_Test.md) - 2025.02.03
+- [Spring Layered Architecture Test](SPRING-TEST/260203_01_Spring_Layered_Architecture_Test.md) - 2025.02.03
 
 ## System-Architecture
 - [Layered Architecture의 장점과 도입 이유](SYSTEM-ARCHITECTURE/260420_01_Layered_Architecture의_장점과_도입_이유.md) - 2026.04.20
@@ -197,8 +197,8 @@
 - [수강신청 시스템에서 초당 10,000건의 요청 처리 아키텍처](SYSTEM-ARCHITECTURE/260216_02_수강신청_시스템_초당_10000건_요청_처리_아키텍처.md) - 2026.02.16
 
 ## TestCode
-- [동시성 테스트](./TestCode/260211_02_동시성_테스트.md) - 2026.02.11
-- [단위테스트와 통합 테스트의 차이점은 무엇인가요?](./TestCode/260211_01_단위테스트와_통합_테스트의_차이점.md) - 2026.02.11
+- [동시성 테스트](TESTCODE/260211_02_동시성_테스트.md) - 2026.02.11
+- [단위테스트와 통합 테스트의 차이점은 무엇인가요?](TESTCODE/260211_01_단위테스트와_통합_테스트의_차이점.md) - 2026.02.11
 
 ## trade-off
 - [모든 Entity는 불변 객체여야 할까? JPA에서는 어떨까?](./trade-off/260217_01_모든_Entity는_불변_객체여야_할까_JPA에서는_어떨까.md) - 2026.02.17
