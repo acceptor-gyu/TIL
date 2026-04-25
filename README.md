@@ -160,6 +160,7 @@
 - [네트워크에서 활용되는 Exponential Backoff](./Network/260127_03_EXPONENTIAL_BACKOFF_ON_NETWORK.md) - 2026.01.27
 
 ## Network-Security
+- [세션과 쿠키 방식의 차이 이해하기](./Network-Security/260421_01_세션과_쿠키_방식의_차이_이해하기.md) - 2026.04.21
 - [SSL, TLS](./Network-Security/260213_02_SSL_TLS.md) - 2026.02.13
 
 ## OOP
