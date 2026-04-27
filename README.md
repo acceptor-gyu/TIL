@@ -65,6 +65,7 @@
 ---
 
 ## AI
+- [Claude Code - gstack, superpowers, GSD](./AI/260427_01_Claude_Code_-_gstack_superpowers_GSD.md) - 2026.04.27
 - [Multi-Agent와 Subagent의 차이](./AI/260421_01_Multi-Agent와_Subagent의_차이.md) - 2026.04.21
 - [AI Harness Design Sample](./AI/260419_02_AI_Harness_Design_Sample.md) - 2026.04.19
 - [Anthropic Multi-Agent 3-Step Harness Design](./AI/260419_01_Anthropic_Multi-Agent_3-Step_Harness_Design.md) - 2026.04.19
