@@ -65,6 +65,7 @@
 ---
 
 ## AI
+- [Andrej Karpathy Skills의 동작 원리와 코딩 성능이 향상되는 이유 분석](./AI/260427_02_Andrej_Karpathy_Skills의_동작_원리와_코딩_성능이_향상되는_이유_분석.md) - 2026.04.27
 - [Claude Code - gstack, superpowers, GSD](./AI/260427_01_Claude_Code_-_gstack_superpowers_GSD.md) - 2026.04.27
 - [Multi-Agent와 Subagent의 차이](./AI/260421_01_Multi-Agent와_Subagent의_차이.md) - 2026.04.21
 - [AI Harness Design Sample](./AI/260419_02_AI_Harness_Design_Sample.md) - 2026.04.19
