@@ -155,6 +155,7 @@
 - [Datadog 활용하기](MONITORING/260313_01_Datadog_활용하기.md) - 2026.03.13
 
 ## NLP
+- [BERT (Bidirectional Encoder Representations from Transformers)](./NLP/260427_03_BERT.md) - 2026.04.27
 - [TF-IDF + LogisticRegression 파이프라인](./NLP/260425_01_TF-IDF_+_LogisticRegression_파이프라인.md) - 2026.04.25
 
 ## Network
