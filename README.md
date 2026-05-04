@@ -193,6 +193,7 @@
 - [Spring Layered Architecture Test](SPRING-TEST/260203_01_Spring_Layered_Architecture_Test.md) - 2025.02.03
 
 ## System-Architecture
+- [따닥 방지 전략과 적절한 케이스 사례](SYSTEM-ARCHITECTURE/260502_01_따닥_방지_전략과_적절한_케이스_사례.md) - 2026.05.02
 - [Layered Architecture의 장점과 도입 이유](SYSTEM-ARCHITECTURE/260420_01_Layered_Architecture의_장점과_도입_이유.md) - 2026.04.20
 - [SQS와 Kafka의 차이](SYSTEM-ARCHITECTURE/260324_01_SQS와_Kafka의_차이.md) - 2026.03.24
 - [Datadog 활용하기](MONITORING/260313_01_Datadog_활용하기.md) - 2026.03.13
