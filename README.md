@@ -218,6 +218,7 @@
 - [벡터 데이터베이스 종류와 활용](./VECTOR-DATABASE/260417_01_벡터_데이터베이스_종류와_활용.md) - 2026.04.17
 
 ## REAL-TIME-MESSAGING
+- [SSE(Server-Sent Events)와 WebSocket의 차이](./REAL-TIME-MESSAGING/260505_02_SSE_Server_Sent_Events와_WebSocket의_차이.md) - 2026.05.05
 - [WebSocket 동작 원리](./REAL-TIME-MESSAGING/260505_01_WebSocket_동작_원리.md) - 2026.05.05
 
 ## TroubleShooting
