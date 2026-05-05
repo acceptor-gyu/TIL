@@ -217,5 +217,8 @@
 ## VECTOR-DATABASE
 - [벡터 데이터베이스 종류와 활용](./VECTOR-DATABASE/260417_01_벡터_데이터베이스_종류와_활용.md) - 2026.04.17
 
+## REAL-TIME-MESSAGING
+- [WebSocket 동작 원리](./REAL-TIME-MESSAGING/260505_01_WebSocket_동작_원리.md) - 2026.05.05
+
 ## TroubleShooting
 - [실행 시간이 1분 이상인 쿼리와 DB Connection과의 관계](./TroubleShooting/260216_05_실행_시간이_1분_이상인_쿼리와_DB_connection과의_관계.md) - 2026.02.16
