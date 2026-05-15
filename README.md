@@ -65,6 +65,7 @@
 ---
 
 ## AI
+- [Claude Code Dreaming](./AI/260510_01_Claude_Code_Dreaming.md) - 2026.05.10
 - [hermes agent](./AI/260508_01_hermes_agent.md) - 2026.05.08
 - [Andrej Karpathy Skills의 동작 원리와 코딩 성능이 향상되는 이유 분석](./AI/260427_02_Andrej_Karpathy_Skills의_동작_원리와_코딩_성능이_향상되는_이유_분석.md) - 2026.04.27
 - [Claude Code - gstack, superpowers, GSD](./AI/260427_01_Claude_Code_-_gstack_superpowers_GSD.md) - 2026.04.27
