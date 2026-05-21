@@ -142,7 +142,6 @@
 - [BuildKit 캐시 마운트와 빌드 시간 단축](DOCKER/260401_01_BuildKit_캐시_마운트와_빌드_시간_단축.md) - 2026.04.01
 
 ## INFRA
-- [Vercel과 Vercel로 할 수 있는 모든 것](./INFRA/260521_02_Vercel과_Vercel로_할_수_있는_모든_것.md) - 2026.05.21
 - [Terraform은 무엇이고 어떻게 활용하는가](./INFRA/260417_01_Terraform은_무엇이고_어떻게_활용하는가.md) - 2026.04.17
 
 ## INTERVIEW
@@ -195,8 +194,11 @@
 ## SpringTest
 - [Spring Layered Architecture Test](SPRING-TEST/260203_01_Spring_Layered_Architecture_Test.md) - 2025.02.03
 
+## ALL-IN-TAB
+- [Vercel과 Vercel로 할 수 있는 모든 것](ALL-IN-TAB/260521_02_Vercel과_Vercel로_할_수_있는_모든_것.md) - 2026.05.21
+- [PG 연동을 위한 시스템 설계 및 개발](ALL-IN-TAB/260521_01_PG_연동을_위한_시스템_설계_및_개발.md) - 2026.05.21
+
 ## System-Architecture
-- [PG 연동을 위한 시스템 설계 및 개발](SYSTEM-ARCHITECTURE/260521_01_PG_연동을_위한_시스템_설계_및_개발.md) - 2026.05.21
 - [따닥 방지 전략과 적절한 케이스 사례](SYSTEM-ARCHITECTURE/260502_01_따닥_방지_전략과_적절한_케이스_사례.md) - 2026.05.02
 - [Layered Architecture의 장점과 도입 이유](SYSTEM-ARCHITECTURE/260420_01_Layered_Architecture의_장점과_도입_이유.md) - 2026.04.20
 - [SQS와 Kafka의 차이](SYSTEM-ARCHITECTURE/260324_01_SQS와_Kafka의_차이.md) - 2026.03.24
