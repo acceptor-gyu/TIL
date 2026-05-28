@@ -180,7 +180,8 @@
 - [운영체제란](./OPERATING-SYSTEM/260309_01_운영체제란.md) - 2026.03.09
 
 ## Performance-Comparison
-- [N번 JOIN 단일 API vs 단순 SELECT N번 API 효율성 비교](./Performance-Comparison/260219_01_N번_JOIN_단일_API_vs_단순_SELECT_N번_API_효율성_비교.md) - 2026.02.19
+- [Google SRE SLO 설계법](PERFORMANCE-COMPARISON/260526_01_Google_SRE_SLO_설계법.md) - 2026.05.26
+- [N번 JOIN 단일 API vs 단순 SELECT N번 API 효율성 비교](PERFORMANCE-COMPARISON/260219_01_N번_JOIN_단일_API_vs_단순_SELECT_N번_API_효율성_비교.md) - 2026.02.19
 
 ## Spring-Boot
 - [REQUIRES_NEW를 사용해야 하는 상황과 사용할 때 주의할 점](SPRING-BOOT/260227_01_REQUIRES_NEW를_사용해야_하는_상황과_주의할_점.md) - 2026.02.27
