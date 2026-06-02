@@ -139,6 +139,7 @@
 - [MySQL Purge DEEP DIVE](RDBMS/260127_02_MYSQL_PURGE.md) - 2026.01.27
 
 ## Docker
+- [Dockerfile의 JVM 메모리 옵션](./DOCKER/260529_02_Dockerfile의_JVM_메모리_옵션.md) - 2026.05.29
 - [BuildKit 캐시 마운트와 빌드 시간 단축](DOCKER/260401_01_BuildKit_캐시_마운트와_빌드_시간_단축.md) - 2026.04.01
 
 ## INFRA
@@ -152,6 +153,10 @@
 
 ## Java
 - [Record를 DTO로 사용하3는 이유는 무엇인가](./Java/260307_02_Record를_DTO로_사용하는_이유는_무엇인가.md) - 2026.03.07
+
+## JVM
+- [JVM 기반 애플리케이션의 기동 성능 최적화 전략](./JVM/260601_02_JVM_기반_애플리케이션의_기동_성능_최적화_전략.md) - 2026.06.01
+- [CDS, CRaC, GC](./JVM/260529_03_CDS_CRaC_GC.md) - 2026.05.29
 
 ## MONITORING
 - [Datadog 활용하기](MONITORING/260313_01_Datadog_활용하기.md) - 2026.03.13
