@@ -94,6 +94,9 @@
 - [Spring Boot OSIV와 Projection/DTO 패턴](./API-DESIGN/260217_03_Spring_Boot_OSIV와_Projection_DTO_패턴.md) - 2026.02.17
 - [Controller에서 Entity를 직접 반환하는 것과 DTO를 사용하는 것](./API-DESIGN/260217_02_Controller에서_Entity를_직접_반환하는_것과_DTO를_사용하는_것.md) - 2026.02.17
 
+## ARCHITECTURE
+- [헥사고날 아키텍처](./ARCHITECTURE/260615_01_헥사고날_아키텍처.md) - 2026.06.15
+
 ## Claude
 - [Claude Code 메인 세션과 서브 에이전트 세션의 차이](CLAUDE/260331_02_Claude_Code_메인_세션과_서브_에이전트_세션의_차이.md) - 2026.03.31
 - [Claude Code를 잘 활용하기 위해 알아야 하는 상식](CLAUDE/260331_01_Claude_Code를_잘_활용하기_위해_알아야_하는_상식.md) - 2026.03.31
@@ -116,6 +119,7 @@
 - [대규모 트래픽 환경을 운영하는 e-commerce 시스템에서 Elasticsearch 활용 전략](./DEVLOG/260324_02_E-commerce_시스템에서_Elasticsearch_활용_전략.md) - 2026.03.24
 
 ## Database
+- [MySQL MyISAM vs InnoDB Engine](./DATABASE/260622_01_MySQL_MyISAM_vs_InnoDB_Engine.md) - 2026.06.22
 - [Elasticsearch를 활용해 검색 엔진 품질 높이기](RDBMS/260402_01_Elasticsearch를_활용해_검색_엔진_품질_높이기.md) - 2026.04.02
 - [gh-ost (GitHub Online Schema Transmogrifier)](RDBMS/260328_01_gh-ost.md) - 2026.03.28
 - [MySQL ReentrantLock](./DATABASE/260319_01_MySQL_ReentrantLock.md) - 2026.03.19
@@ -155,6 +159,8 @@
 - [Record를 DTO로 사용하3는 이유는 무엇인가](./Java/260307_02_Record를_DTO로_사용하는_이유는_무엇인가.md) - 2026.03.07
 
 ## JVM
+- [GC 상황을 확인하는 jstat](./JVM/260614_01_GC_상황을_확인하는_jstat.md) - 2026.06.14
+- [자바 인스턴스 확인을 위한 jps](./JVM/260612_01_자바_인스턴스_확인을_위한_jps.md) - 2026.06.12
 - [강제로 GC 시키기](./JVM/260611_04_강제로_GC_시키기.md) - 2026.06.11
 - [5가지 GC 방식](./JVM/260611_03_5가지_GC_방식.md) - 2026.06.11
 - [GC 알고리즘 vs GC 선택: 장단점 비교](./JVM/260611_02_GC_알고리즘_vs_GC_선택_장단점_비교.md) - 2026.06.11
@@ -205,7 +211,19 @@
 - [Google SRE SLO 설계법](PERFORMANCE-COMPARISON/260526_01_Google_SRE_SLO_설계법.md) - 2026.05.26
 - [N번 JOIN 단일 API vs 단순 SELECT N번 API 효율성 비교](PERFORMANCE-COMPARISON/260219_01_N번_JOIN_단일_API_vs_단순_SELECT_N번_API_효율성_비교.md) - 2026.02.19
 
+## PYTHON
+- [FastAPI](./PYTHON/260629_01_FAST_API.md) - 2026.06.29
+
 ## Spring-Boot
+- [@ComponentScan을 사용하는 이유](SPRING-BOOT/260707_01_@ComponentScan을_사용하는_이유.md) - 2026.07.07
+- [@Transactional 동작 원리 (feat. 프록시)](SPRING-BOOT/260622_01_@Transactional_동작_원리_feat_프록시.md) - 2026.06.22
+- [@ComponentScan의 한계와 @AutoConfiguration](SPRING-BOOT/260621_04_@ComponentScan의_한계와_@AutoConfiguration.md) - 2026.06.21
+- [@Transactional propagation 옵션과 보상 트랜잭션 구체적인 상황 예시](SPRING-BOOT/260621_03_@Transactional_propagation_옵션과_보상_트랜잭션_구체적인_상황_예시.md) - 2026.06.21
+- [@Transactional propagation 옵션과 CGLIB 프록시](SPRING-BOOT/260621_02_@Transactional_propagation_옵션과_CGLIB_프록시.md) - 2026.06.21
+- [AOT Cache와 JVM CDS](SPRING-BOOT/260621_01_AOT_Cache와_JVM_CDS.md) - 2026.06.21
+- [CGLIB 프록시와 @Configuration](SPRING-BOOT/260619_03_CGLIB_프록시와_@Configuration.md) - 2026.06.19
+- [CGLIB 프록시](SPRING-BOOT/260619_02_CGLIB_프록시.md) - 2026.06.19
+- [Liquibase](SPRING-BOOT/260619_01_Liquibase.md) - 2026.06.19
 - [REQUIRES_NEW를 사용해야 하는 상황과 사용할 때 주의할 점](SPRING-BOOT/260227_01_REQUIRES_NEW를_사용해야_하는_상황과_주의할_점.md) - 2026.02.27
 - [REQUIRES_NEW를 사용할 때 getBean()을 사용해야 하는 이유](SPRING-BOOT/260226_02_REQUIRES_NEW를_사용할_때_getBean을_사용해야_하는_이유.md) - 2026.02.26
 
