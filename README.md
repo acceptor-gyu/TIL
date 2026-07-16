@@ -147,6 +147,7 @@
 - [BuildKit 캐시 마운트와 빌드 시간 단축](DOCKER/260401_01_BuildKit_캐시_마운트와_빌드_시간_단축.md) - 2026.04.01
 
 ## INFRA
+- [DC/OS (Datacenter Operating System)](./INFRA/260716_01_DC_OS.md) - 2026.07.16
 - [Terraform은 무엇이고 어떻게 활용하는가](./INFRA/260417_01_Terraform은_무엇이고_어떻게_활용하는가.md) - 2026.04.17
 
 ## INTERVIEW
