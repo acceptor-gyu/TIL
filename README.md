@@ -247,6 +247,7 @@
 - [PG 연동을 위한 시스템 설계 및 개발](ALL-IN-TAB/260521_01_PG_연동을_위한_시스템_설계_및_개발.md) - 2026.05.21
 
 ## System-Architecture
+- [비관적 락으로 막은 동시성이, @Transactional 안의 Slack 호출로 되살아났다](SYSTEM-ARCHITECTURE/260730_01_비관적_락으로_막은_동시성이_Transactional_안의_Slack_호출로_되살아났다.md) - 2026.07.30
 - [따닥 방지 전략과 적절한 케이스 사례](SYSTEM-ARCHITECTURE/260502_01_따닥_방지_전략과_적절한_케이스_사례.md) - 2026.05.02
 - [Layered Architecture의 장점과 도입 이유](SYSTEM-ARCHITECTURE/260420_01_Layered_Architecture의_장점과_도입_이유.md) - 2026.04.20
 - [SQS와 Kafka의 차이](SYSTEM-ARCHITECTURE/260324_01_SQS와_Kafka의_차이.md) - 2026.03.24
