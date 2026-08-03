@@ -106,6 +106,7 @@
 - [Claude Skills 활용 전략](CLAUDE/260129_01_Claude_Skills_활용_전략.md) - 2026.01.29
 
 ## Concurrency
+- [Redis 분산락](./CONCURRENCY/260801_01_Redis_분산락.md) - 2026.08.01
 - [Worker Pool 패턴](./CONCURRENCY/260410_01_Worker_Pool_패턴.md) - 2026.04.10
 - [Java CountDownLatch](CONCURRENCY/260223_02_Java_CountDownLatch.md) - 2026.02.23
 
