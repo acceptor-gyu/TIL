@@ -121,6 +121,7 @@
 - [대규모 트래픽 환경을 운영하는 e-commerce 시스템에서 Elasticsearch 활용 전략](./DEVLOG/260324_02_E-commerce_시스템에서_Elasticsearch_활용_전략.md) - 2026.03.24
 
 ## Database
+- [MySQL Intention Lock (의도 락)](./RDBMS/260806_04_MySQL_Intention_Lock.md) - 2026.08.06
 - [MySQL MyISAM vs InnoDB Engine](./DATABASE/260622_01_MySQL_MyISAM_vs_InnoDB_Engine.md) - 2026.06.22
 - [Elasticsearch를 활용해 검색 엔진 품질 높이기](RDBMS/260402_01_Elasticsearch를_활용해_검색_엔진_품질_높이기.md) - 2026.04.02
 - [gh-ost (GitHub Online Schema Transmogrifier)](RDBMS/260328_01_gh-ost.md) - 2026.03.28
