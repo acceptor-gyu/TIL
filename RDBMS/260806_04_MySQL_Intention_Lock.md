@@ -129,6 +129,58 @@ LOCK TABLES child WRITE;
 -- X(테이블 전체) 요청 → IX와 충돌 → A가 COMMIT/ROLLBACK 할 때까지 대기
 ```
 
+### 7. Intention Lock이 발생하는 경우와 실무 예시
+
+**언제 자동으로 발생하는가**
+
+Intention Lock은 개발자가 직접 거는 것이 아니라, **row-level Lock을 유발하는 모든 문장에서 InnoDB가 그 직전에 자동으로 획득**한다. 순수 `SELECT`(잠금 없는 MVCC 스냅샷 읽기)에는 발생하지 않는다.
+
+| SQL 문장 | 유발되는 Intention Lock |
+|----------|------------------------|
+| `SELECT ... FOR SHARE` | `IS` |
+| `SELECT ... FOR UPDATE` | `IX` |
+| `INSERT` | `IX` |
+| `UPDATE` | `IX` |
+| `DELETE` | `IX` |
+
+**예시 A) 긴 트랜잭션 + DDL 충돌로 배포 중 DB가 멈추는 상황 (가장 흔한 실무 이슈)**
+```sql
+-- [세션 1] 애플리케이션의 긴 트랜잭션 (예: 배치 처리 중)
+START TRANSACTION;
+SELECT * FROM orders WHERE status = 'PENDING' FOR UPDATE;
+-- → 테이블 orders 에 IX Lock 보유 중 (아직 COMMIT 안 함)
+
+-- [세션 2] 배포 파이프라인에서 컬럼 추가
+ALTER TABLE orders ADD COLUMN memo VARCHAR(255);
+-- → 테이블 전체 락(MDL + 내부 테이블 레벨 충돌) 요청
+-- → 세션 1의 IX Lock과 충돌 → 세션 1이 끝날 때까지 대기(Waiting)
+```
+세션 1의 트랜잭션이 오래 열려 있으면 `ALTER TABLE`이 뒤에서 대기하고, 그 뒤에 도착한 **신규 쿼리까지 줄줄이 대기**하여 서비스 장애로 번진다. "배포 때 DB가 멈췄다"의 대표적 원인이다.
+- 대응: 트랜잭션 범위 최소화, gh-ost·pt-online-schema-change 같은 온라인 스키마 변경 도구 사용, 배포 전 `SHOW PROCESSLIST` / `data_locks`로 열린 트랜잭션 확인.
+
+**예시 B) 고동시성 쓰기 — Intention Lock은 방해하지 않는다**
+```sql
+-- [세션 1]
+UPDATE accounts SET balance = balance - 100 WHERE id = 1;
+-- 테이블 IX + row(id=1) X Lock
+
+-- [세션 2] (동시)
+UPDATE accounts SET balance = balance - 50 WHERE id = 2;
+-- 테이블 IX + row(id=2) X Lock
+```
+두 세션 모두 IX를 갖지만 **IX↔IX는 호환**이고 서로 다른 row라 완전히 병렬 처리된다. Intention Lock이 "테이블 락을 지원하면서도 row 동시성을 해치지 않는" 이유다.
+
+**예시 C) 정합성이 중요한 배치에서 의도적으로 테이블 전체를 잠글 때**
+```sql
+-- 월말 정산 배치: 정산 중 어떤 주문도 변경되면 안 됨
+LOCK TABLES settlements WRITE;
+-- → 다른 트랜잭션이 settlements 에 IX를 갖고 있으면 대기
+-- → 이후 들어오는 UPDATE/INSERT(IX 요청)도 이 테이블 락과 충돌하여 대기
+... 정산 로직 ...
+UNLOCK TABLES;
+```
+Intention Lock 덕분에 배치 락이 "지금 이 테이블에 쓰기 작업이 진행 중인가?"를 row 스캔 없이 즉시 판단한다.
+
 ## 핵심 정리
 - Intention Lock(IS/IX)은 **row Lock 자체가 아니라 테이블 레벨의 "예고" 신호**다.
 - 목적은 서로 다른 granularity(테이블 vs row) 간 Lock 충돌 여부를 **row 전체 스캔 없이 O(1)로 판단**하는 것이다.
