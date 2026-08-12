@@ -121,6 +121,7 @@
 - [대규모 트래픽 환경을 운영하는 e-commerce 시스템에서 Elasticsearch 활용 전략](./DEVLOG/260324_02_E-commerce_시스템에서_Elasticsearch_활용_전략.md) - 2026.03.24
 
 ## Database
+- [Redis Sorted Set 활용되는 곳](./DATABASE/260812_04_Redis_Sorted_Set_활용되는_곳.md) - 2026.08.12
 - [Redis의 근사 LRU 알고리즘이란](./DATABASE/260812_01_Redis의_근사_LRU_알고리즘이란.md) - 2026.08.12
 - [MySQL Intention Lock (의도 락)](./RDBMS/260806_04_MySQL_Intention_Lock.md) - 2026.08.06
 - [MySQL MyISAM vs InnoDB Engine](./DATABASE/260622_01_MySQL_MyISAM_vs_InnoDB_Engine.md) - 2026.06.22
