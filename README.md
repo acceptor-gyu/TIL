@@ -238,6 +238,7 @@
 - [REQUIRES_NEW를 사용할 때 getBean()을 사용해야 하는 이유](SPRING-BOOT/260226_02_REQUIRES_NEW를_사용할_때_getBean을_사용해야_하는_이유.md) - 2026.02.26
 
 ## SpringDataJPA
+- [Spring Data JDBC와 JPA의 장단점과 그 보완 전략](SPRING-DATA-JPA/260812_02_Spring_Data_JDBC와_JPA의_장단점과_그_보완_전략.md) - 2026.08.12
 - [JPA N+1 문제 및 해결 방법과 그 방법별 장단점 또는 한계](SPRING-DATA-JPA/260714_01_JPA_N+1_문제_및_해결_방법과_그_방법별_장단점_또는_한계.md) - 2026.07.14
 - [N+1 문제와 해결방법](SPRING-DATA-JPA/260216_04_N+1_문제와_해결방법.md) - 2026.02.16
 - [Spring Data JPA 저장 방식 - save(), saveAll(), 배치 등](SPRING-DATA-JPA/260204_02_Spring_Data_JPA_저장_방식.md) - 2026.02.04
