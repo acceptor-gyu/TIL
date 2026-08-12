@@ -238,6 +238,7 @@
 - [REQUIRES_NEW를 사용할 때 getBean()을 사용해야 하는 이유](SPRING-BOOT/260226_02_REQUIRES_NEW를_사용할_때_getBean을_사용해야_하는_이유.md) - 2026.02.26
 
 ## SpringDataJPA
+- [FetchJoin, @BatchSize, @QueryProjection 각각을 사용하기에 적절한 상황 예시](SPRING-DATA-JPA/260812_03_FetchJoin_@BatchSize_@QueryProjection_각각을_사용하기에_적절한_상황_예시.md) - 2026.08.12
 - [Spring Data JDBC와 JPA의 장단점과 그 보완 전략](SPRING-DATA-JPA/260812_02_Spring_Data_JDBC와_JPA의_장단점과_그_보완_전략.md) - 2026.08.12
 - [JPA N+1 문제 및 해결 방법과 그 방법별 장단점 또는 한계](SPRING-DATA-JPA/260714_01_JPA_N+1_문제_및_해결_방법과_그_방법별_장단점_또는_한계.md) - 2026.07.14
 - [N+1 문제와 해결방법](SPRING-DATA-JPA/260216_04_N+1_문제와_해결방법.md) - 2026.02.16
