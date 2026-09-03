@@ -160,6 +160,7 @@
 - [BuildKit 캐시 마운트와 빌드 시간 단축](DOCKER/260401_01_BuildKit_캐시_마운트와_빌드_시간_단축.md) - 2026.04.01
 
 ## INFRA
+- [CI/CD - workflow_dispatch inputs environment choice 타입의 의미](./INFRA/260903_03_CI_CD_workflow_dispatch_inputs_environment_choice_타입의_의미.md) - 2026.09.03
 - [Local Docker 환경에서 IaC 학습 시작](./INFRA/260820_01_Local_Docker_환경에서_IaC_학습_시작.md) - 2026.08.20
 - [AWS Bedrock FM (Foundation Model)](./INFRA/260729_01_AWS_Bedrock_FM.md) - 2026.07.29
 - [AWS Bedrock](./INFRA/260728_01_AWS_Bedrock.md) - 2026.07.28
