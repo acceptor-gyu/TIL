@@ -47,7 +47,8 @@ TABLE_SHARE  →  Sql_check_constraint_share    (조건식을 문자열 형태�
                         |
                 open_table_from_share()
                         └─ unpack_value_generator()
-                           ↑ 생성 컬럼 / DEFAULT 식과 동일한 메커니즘
+                        |
+                        ↑ 생성 컬럼 / DEFAULT 식과 동일한 메커니즘
                         |
 TABLE        →  Sql_table_check_constraint    (언팩된 Item 트리 + 이름 + 상태)
 ```
