@@ -116,11 +116,16 @@
 - [Stack, Queue, Deque, PriorityQueue](./DATA-STRUCTURE/260213_03_Stack_Queue_Deque_PriorityQueue.md) - 2026.02.13
 
 ## DEVLOG
+- [리프레시 토큰 회전 설계 - 클러스터가 필요한가, 토큰에 무엇을 담을까](./DEVLOG/260902_02_리프레시_토큰_회전_설계와_Redis_클러스터.md) - 2026.09.02
+- [온보딩에서 찾은 인증 문제 두 가지 - 정지 계정과 Redis 클러스터 함정](./DEVLOG/260901_02_온보딩에서_찾은_인증_문제_두_가지.md) - 2026.09.01
+- [새로 합류한 프로젝트 - 셀프 온보딩](./DEVLOG/260901_01_새로_합류한_프로젝트_셀프_온보딩.md) - 2026.09.01
 - [파티셔닝을 실제 운영중인 서비스에 적용할 때 필요한 전략](./DEVLOG/260328_01_파티셔닝을_실제_운영중인_서비스에_적용할_때_필요한_전략.md) - 2026.03.28
 - [제한 시간 게임 중도 종료 유저 데이터 관리](./DEVLOG/260327_01_제한_시간_게임_중도_종료_유저_데이터_관리.md) - 2026.03.27
 - [대규모 트래픽 환경을 운영하는 e-commerce 시스템에서 Elasticsearch 활용 전략](./DEVLOG/260324_02_E-commerce_시스템에서_Elasticsearch_활용_전략.md) - 2026.03.24
 
 ## Database
+- [MySQL CHECK 제약의 검증 동작 원리](./RDBMS/260903_01_MySQL_CHECK_제약_검증_동작_원리.md) - 2026.09.03
+- [MySQL CHECK 제약](./RDBMS/260902_01_MySQL_CHECK_제약.md) - 2026.09.02
 - [Redis Sorted Set 활용되는 곳](./DATABASE/260812_04_Redis_Sorted_Set_활용되는_곳.md) - 2026.08.12
 - [Redis의 근사 LRU 알고리즘이란](./DATABASE/260812_01_Redis의_근사_LRU_알고리즘이란.md) - 2026.08.12
 - [MySQL Intention Lock (의도 락)](./RDBMS/260806_04_MySQL_Intention_Lock.md) - 2026.08.06
@@ -152,6 +157,7 @@
 - [BuildKit 캐시 마운트와 빌드 시간 단축](DOCKER/260401_01_BuildKit_캐시_마운트와_빌드_시간_단축.md) - 2026.04.01
 
 ## INFRA
+- [Local Docker 환경에서 IaC 학습 시작](./INFRA/260820_01_Local_Docker_환경에서_IaC_학습_시작.md) - 2026.08.20
 - [AWS Bedrock FM (Foundation Model)](./INFRA/260729_01_AWS_Bedrock_FM.md) - 2026.07.29
 - [AWS Bedrock](./INFRA/260728_01_AWS_Bedrock.md) - 2026.07.28
 - [DC/OS (Datacenter Operating System)](./INFRA/260716_01_DC_OS.md) - 2026.07.16
