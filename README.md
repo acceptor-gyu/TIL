@@ -119,6 +119,7 @@
 - [FACADE 패턴 - N개의 소셜 로그인이 필요한 경우를 예시로](./DESIGN/260903_02_FACADE_패턴_N개의_소셜_로그인이_필요한_경우를_예시로.md) - 2026.09.03
 
 ## DEVLOG
+- [presigned URL 업로드 설계 - 왜 이 구조인가, 그리고 다음에 무엇을 할 것인가](./DEVLOG/260904_01_presigned_URL_업로드_설계와_앞으로_해야_할_일.md) - 2026.09.04
 - [리프레시 토큰 회전 설계 - 클러스터가 필요한가, 토큰에 무엇을 담을까](./DEVLOG/260902_02_리프레시_토큰_회전_설계와_Redis_클러스터.md) - 2026.09.02
 - [온보딩에서 찾은 인증 문제 두 가지 - 정지 계정과 Redis 클러스터 함정](./DEVLOG/260901_02_온보딩에서_찾은_인증_문제_두_가지.md) - 2026.09.01
 - [새로 합류한 프로젝트 - 셀프 온보딩](./DEVLOG/260901_01_새로_합류한_프로젝트_셀프_온보딩.md) - 2026.09.01
@@ -160,6 +161,9 @@
 - [BuildKit 캐시 마운트와 빌드 시간 단축](DOCKER/260401_01_BuildKit_캐시_마운트와_빌드_시간_단축.md) - 2026.04.01
 
 ## INFRA
+- [Datadog pup CLI](./INFRA/260912_01_Datadog_pup_CLI.md) - 2026.09.12
+- [Datadog pup](./INFRA/260911_02_Datadog_pup.md) - 2026.09.11
+- [Blue-Green, Canary, Rolling 배포](./INFRA/260907_01_Blue-Green_Canary_Rolling_배포.md) - 2026.09.07
 - [CI/CD - workflow_dispatch inputs environment choice 타입의 의미](./INFRA/260903_03_CI_CD_workflow_dispatch_inputs_environment_choice_타입의_의미.md) - 2026.09.03
 - [Local Docker 환경에서 IaC 학습 시작](./INFRA/260820_01_Local_Docker_환경에서_IaC_학습_시작.md) - 2026.08.20
 - [AWS Bedrock FM (Foundation Model)](./INFRA/260729_01_AWS_Bedrock_FM.md) - 2026.07.29
@@ -169,6 +173,13 @@
 
 ## INTERVIEW
 - [사용자가 웹사이트에 처음 접근했을 때 발생하는 일련의 과정](./INTERVIEW/260213_01_사용자가_웹사이트에_처음_접근했을_때_발생하는_일련의_과정.md) - 2026.02.13
+
+## IMITATION-INTERVIEW
+- [[INFRA] Gateway rate limit — token bucket의 token 수는 어떤 기준으로 정하나요?](./IMITATION-INTERVIEW/260911_01_INFRA_Gateway_token_bucket_rate_limit의_token_수는_어떤_기준으로_정하나요.md) - 2026.09.11
+- [[ARCHITECTURE] 유스케이스, 도메인, 도메인 규칙, 애그리거트(Aggregate)는 각각 무엇이고 어떻게 구분하나요?](./IMITATION-INTERVIEW/260908_02_ARCHITECTURE_유스케이스_도메인_도메인_규칙_Aggregate는_각각_무엇인가요.md) - 2026.09.08
+- [[ARCHITECTURE] Hexagonal Architecture — port와 adapter는 각각 어떤 책임을 가지나요?](./IMITATION-INTERVIEW/260908_01_ARCHITECTURE_Hexagonal_Architecture에서_port와_adapter는_각각_어떤_책임을_가지나요.md) - 2026.09.08
+- [[INFRA] 무중단 배포 — Blue-Green, Canary, Rolling 중 어떤 방식을 선호하고 이유는 무엇인가요?](./IMITATION-INTERVIEW/260907_02_INFRA_무중단_배포_Blue-Green_Canary_Rolling_중_어떤_방식을_선호하나요.md) - 2026.09.07
+- [Outbox table에 event가 많이 쌓이면 polling과 발행 지연을 어떻게 줄일 수 있나요?](./IMITATION-INTERVIEW/260904_02_Outbox_table에_event가_많이_쌓이면_polling과_발행_지연을_어떻게_줄일_수_있나요.md) - 2026.09.04
 
 ## Kotlin
 - [Coroutine — 비동기 처리의 핵심](./Kotlin/260326_01_Coroutine_비동기_처리의_핵심.md) - 2026.03.26
@@ -239,6 +250,7 @@
 - [Spring Batch 사용을 고려하는 경우](SPRING-BATCH/260813_01_Spring_Batch_사용을_고려하는_경우.md) - 2026.08.13
 
 ## Spring-Boot
+- [@Cacheable](SPRING-BOOT/260903_04_@Cacheable.md) - 2026.09.03
 - [@ComponentScan을 사용하는 이유](SPRING-BOOT/260707_01_@ComponentScan을_사용하는_이유.md) - 2026.07.07
 - [@Transactional 동작 원리 (feat. 프록시)](SPRING-BOOT/260622_01_@Transactional_동작_원리_feat_프록시.md) - 2026.06.22
 - [@ComponentScan의 한계와 @AutoConfiguration](SPRING-BOOT/260621_04_@ComponentScan의_한계와_@AutoConfiguration.md) - 2026.06.21
